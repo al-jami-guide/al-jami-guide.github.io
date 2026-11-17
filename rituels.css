@@ -1,0 +1,93 @@
+/* Al Jami Guide — informational page preserving premium style. */
+.ritual-page {overflow-x:clip;background:#fffdf9;color:#183529;}
+.ritual-page .site-header .brand-name em {font-family:var(--font-accent);}
+.ritual-page .main-nav .nav-link.active{background:#064f35;color:white}
+.ritual-page .ui-icon{width:21px;height:21px;fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.8;flex-shrink:0}
+.ritual-page h1,.ritual-page h2,.ritual-page h3{overflow-wrap:normal;word-break:normal;hyphens:none}
+.ritual-page h1 em,.ritual-page h2 em{font:italic 700 1em/1.12 var(--font-accent);color:#bd8523}
+.ritual-section{padding:100px 0}
+.ritual-hero{min-height:560px;position:relative;isolation:isolate;overflow:hidden;background:#063922}
+.ritual-hero-img{position:absolute;inset:0;z-index:-2;background-image:url('assets/hero-kaaba.webp');background-size:cover;background-position:center 48%;}
+.ritual-hero-shade{position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(2,40,29,.98) 0%,rgba(2,45,32,.94) 25%,rgba(2,42,31,.80) 43%,rgba(2,32,25,.25) 75%,rgba(2,34,26,.08) 100%)}
+.ritual-hero-content{padding:58px 0 80px;color:white;min-height:560px;display:flex;flex-direction:column;align-items:flex-start;justify-content:center}
+.ritual-return{display:inline-flex;align-items:center;gap:8px;font-weight:800;font-size:13px;color:#f4e0aa;margin-bottom:38px;border-bottom:1px solid rgba(246,220,159,.5);padding-bottom:7px}
+.ritual-return .ui-icon{width:15px;height:15px;transform:rotate(180deg)}
+.ritual-eyebrow{font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:900;color:#f1d282;margin-bottom:18px}
+.ritual-hero h1{font:700 clamp(43px,5.1vw,74px)/1.13 var(--font-display);letter-spacing:-.045em;max-width:770px;margin:0 0 22px;text-wrap:balance}
+.ritual-hero h1 em{color:#f5d280}
+.ritual-hero-intro{font-size:18px;line-height:1.78;font-weight:650;max-width:620px;margin:0 0 25px;text-shadow:0 1px 7px #102f2166}
+.ritual-hero-actions{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.ritual-hero-actions .btn{gap:10px}
+.ritual-heading{max-width:820px;margin-bottom:37px}
+.ritual-heading.center{text-align:center;margin-left:auto;margin-right:auto}
+.ritual-heading .section-kicker{display:block;font-size:12px;font-weight:900;letter-spacing:.13em;margin-bottom:13px;color:#b68732}
+.ritual-heading h2{font:700 clamp(33px,3.5vw,52px)/1.18 var(--font-display);letter-spacing:-.041em;color:#123c2a;margin:0 0 18px;text-wrap:balance}
+.ritual-heading p{font-size:16.5px;color:#4d6355;line-height:1.83;font-weight:620;margin:0}
+.ritual-introduction{background:#fffcf6;padding-bottom:108px}
+.ritual-intro-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.ritual-intro-card{display:grid;grid-template-columns:38% 62%;background:white;border:1px solid #e6e7df;border-radius:23px;overflow:hidden;box-shadow:0 11px 36px rgba(14,49,29,.068)}
+.ritual-intro-img img{width:100%;height:100%;min-height:275px;object-fit:cover}
+.ritual-intro-body{padding:30px 31px 27px;position:relative;display:flex;flex-direction:column;align-items:flex-start}
+.ritual-intro-body h3{font:700 clamp(22px,2vw,29px)/1.21 var(--font-display);letter-spacing:-.036em;margin:0 0 15px;color:#17392a}
+.ritual-intro-body p{font-size:14.5px;line-height:1.72;font-weight:650;color:#536457;margin:0 0 29px}
+.ritual-card-arrow{display:grid;place-items:center;align-self:flex-end;margin-top:auto;color:#9b6d24;width:37px;height:37px;border-radius:50%;background:#fbf5e5;border:1px solid #e8d5ac}
+.ritual-omra{background:#f4f8f5}
+.omra-steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+.omra-step{padding:25px 24px 28px;background:white;border:1px solid #e1e8df;border-radius:20px;box-shadow:0 9px 22px rgba(7,50,28,.045);position:relative}
+.omra-step-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px}
+.num-pill{display:grid;place-items:center;width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,#f5d88e,#b5832f);font-size:16px;color:#123729;font-weight:900}
+.ritual-icon{display:inline-grid;place-items:center;width:49px;height:49px;border-radius:13px;background:#eef7ef;color:#07543b}
+.ritual-icon svg{width:25px;height:25px;stroke-width:1.8}
+.ritual-date{font-size:11px;letter-spacing:.09em;font-weight:900;color:#b2802c;text-transform:uppercase;display:block;margin-bottom:10px}
+.omra-step h3,.hajj-stage h3,.diff-card h3{font:700 22px/1.22 var(--font-display);letter-spacing:-.028em;margin:0 0 12px;color:#153b2a}
+.omra-step p,.hajj-stage p,.diff-card p{font-size:14.5px;font-weight:630;line-height:1.72;color:#586b5d;margin:0}
+.ritual-passage{display:grid;grid-template-columns:200px 1fr;gap:27px;align-items:center;background:#104d37;color:#fff;border-radius:23px;overflow:hidden;margin-top:27px}
+.ritual-passage img{height:210px;width:100%;object-fit:cover}
+.ritual-passage>div{padding:23px 38px 23px 4px}
+.ritual-passage h3{font:700 26px/1.2 var(--font-display);margin:0 0 9px;color:#f6dfaa}
+.ritual-passage p{font-size:15.5px;line-height:1.73;color:#f1f9f2;font-weight:650;margin:0}
+.ritual-hajj{background:white}
+.hajj-timeline{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+.hajj-stage{padding:21px 22px 23px;border:1px solid #e3e9e0;border-radius:20px;background:linear-gradient(160deg,#fff,#fcfdf9);position:relative;box-shadow:0 7px 23px rgba(4,48,30,.06);min-height:283px}
+.hajj-dot{position:absolute;right:15px;top:15px;background:#f4e3b5;color:#805d23;font-weight:900;font-size:13px;width:32px;height:32px;border-radius:50%;display:grid;place-items:center}
+.hajj-stage .ritual-icon{margin-bottom:22px}
+.hajj-text h3{font-size:21px}
+.ritual-difference{background:#f6f7f1}
+.diff-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.diff-card{background:white;border:1px solid #e1e8dd;padding:27px 27px 31px;border-radius:20px;box-shadow:0 7px 26px rgba(15,50,30,.05)}
+.diff-icon{width:57px;height:57px;color:#aa822f;background:#fff7e4;border-radius:16px;display:grid;place-items:center;margin-bottom:17px}
+.diff-icon .ui-icon{width:28px;height:28px;stroke-width:1.9}
+.ritual-questions{background:#fff;padding-bottom:82px}
+.ritual-questions-grid{display:grid;grid-template-columns:minmax(0,.72fr) minmax(0,1.28fr);gap:80px;align-items:start}
+.question-decoration{margin-top:35px;color:#cba753;opacity:.7}
+.question-decoration .ui-icon{height:75px;width:75px;stroke-width:1.2}
+.ritual-faq-list{display:flex;flex-direction:column;gap:13px}
+.ritual-faq{background:#f7faf7;border:1px solid #e2e9e1;border-radius:15px;overflow:hidden}
+.ritual-faq summary{cursor:pointer;list-style:none;font-size:16px;font-weight:800;color:#173b2b;padding:20px 23px;display:flex;align-items:center;gap:16px;justify-content:space-between}
+.ritual-faq summary::-webkit-details-marker{display:none}
+.ritual-faq summary .faq-plus{font-size:26px;font-weight:500;color:#b78a33;line-height:1}
+.ritual-faq[open] summary .faq-plus{transform:rotate(45deg)}
+.ritual-faq p{padding:0 23px 23px;margin:0;color:#516658;font-size:14.5px;line-height:1.74;font-weight:620}
+.sources-section{background:#fff;padding:0 0 75px}
+.sources-box{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:25px;padding:27px 31px;background:#f8f8ef;border:1px solid #e6e8d9;border-radius:18px}
+.sources-box p{margin:8px 0 0;font-size:14px;font-weight:650;color:#526454;line-height:1.7}
+.source-buttons{display:flex;gap:9px;flex-wrap:wrap;justify-content:flex-end}
+.source-buttons a{display:inline-flex;align-items:center;gap:6px;padding:13px 14px;border:1px solid #d3ded1;border-radius:11px;background:#fff;font-size:12.5px;font-weight:820;color:#104c35;line-height:1.3}
+.source-buttons a .ui-icon{width:17px;height:17px}
+.ritual-cta{background:linear-gradient(105deg,#073a29,#07553b);color:#fff;padding:70px 0}
+.ritual-cta-grid{display:grid;grid-template-columns:1fr auto;align-items:center;gap:40px}
+.ritual-cta .section-kicker{color:#f5d98d;font-size:12px;font-weight:900;letter-spacing:.14em}
+.ritual-cta h2{font:700 clamp(30px,3vw,45px)/1.23 var(--font-display);margin:15px 0;color:#fff;letter-spacing:-.04em}
+.ritual-cta p{font-weight:650;color:#e2efe6;line-height:1.73;font-size:15px;max-width:680px;margin:0}
+.ritual-cta-actions{display:flex;gap:18px;flex-direction:column;align-items:center}
+.ritual-cta-actions .btn{max-width:100%;white-space:normal;text-align:center}
+.ritual-cta-back{display:flex;gap:6px;align-items:center;text-decoration:underline;text-underline-offset:4px;font-size:13.5px;font-weight:750}
+.ritual-cta-back svg{width:17px;height:17px}
+.ritual-footer{padding-top:10px}
+.ritual-footer .footer-top{grid-template-columns:1.4fr .7fr .8fr 1fr}
+.ritual-footer .footer-top a{display:block}
+@media(max-width:1260px){.ritual-intro-card{grid-template-columns:1fr}.ritual-intro-img img{height:190px;min-height:0}.omra-steps,.hajj-timeline{grid-template-columns:repeat(2,minmax(0,1fr))}.hajj-stage{min-height:0}.ritual-questions-grid{gap:40px}}
+@media(max-width:900px){.ritual-section{padding:75px 0}.ritual-hero,.ritual-hero-content{min-height:590px}.ritual-hero-shade{background:linear-gradient(90deg,rgba(2,37,26,.97),rgba(2,44,30,.82) 61%,rgba(2,36,25,.48))}.ritual-hero h1{font-size:clamp(40px,6vw,59px)}.ritual-questions-grid{grid-template-columns:1fr;gap:0}.question-decoration{display:none}.ritual-intro-grid{gap:16px}.ritual-cta-grid{grid-template-columns:1fr}.ritual-cta-actions{align-items:flex-start}.ritual-footer .footer-top{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.ritual-section{padding:62px 0}.ritual-hero,.ritual-hero-content{min-height:590px}.ritual-hero-content{padding:47px 0 66px}.ritual-return{margin-bottom:34px}.ritual-eyebrow{font-size:10px;letter-spacing:.11em}.ritual-hero h1{font-size:clamp(36px,9.4vw,47px);line-height:1.22;letter-spacing:-.04em}.ritual-hero-intro{font-size:15.5px;line-height:1.7}.ritual-hero-actions{width:100%;gap:10px}.ritual-hero-actions .btn{flex:1 1 auto;font-size:12.5px;min-width:0;padding:11px 12px}.ritual-hero-shade{background:linear-gradient(90deg,rgba(2,39,27,.98),rgba(4,48,35,.86))}.ritual-heading h2{font-size:clamp(30px,8.6vw,39px)}.ritual-heading p{font-size:15px}.ritual-intro-grid,.omra-steps,.hajj-timeline,.diff-grid{grid-template-columns:1fr}.ritual-intro-card{grid-template-columns:1fr}.ritual-intro-img img{height:210px}.ritual-intro-body{padding:24px}.ritual-intro-body h3{font-size:25px}.omra-step,.hajj-stage{padding:23px}.ritual-passage{grid-template-columns:1fr;gap:0}.ritual-passage img{height:180px}.ritual-passage>div{padding:25px}.ritual-faq summary{font-size:15px;padding:19px}.ritual-faq p{font-size:14px;padding:0 19px 19px}.sources-box{grid-template-columns:1fr;padding:24px 19px}.source-buttons{justify-content:flex-start}.source-buttons a{width:100%;justify-content:center}.ritual-cta{padding:65px 0}.ritual-cta h2{font-size:32px}.ritual-cta-actions{align-items:stretch}.ritual-footer .footer-top{grid-template-columns:1fr 1fr}.ritual-footer .footer-top>div:first-child{grid-column:1/-1}.ritual-footer .footer-top>div:last-child{grid-column:1/-1}}
+@media(max-width:370px){.ritual-hero-actions .btn{width:100%;flex-basis:100%}.ritual-hero h1{font-size:35px}.ritual-hero,.ritual-hero-content{min-height:660px}}
+@media(prefers-reduced-motion:reduce){.ritual-hero-img{animation:none}}
