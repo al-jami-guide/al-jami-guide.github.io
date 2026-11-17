@@ -679,3 +679,27 @@ h2 {font-family:var(--font-display); font-size:clamp(32px,3.04vw,45px); font-wei
 .guide-read-more svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2}
 @media(max-width:900px){.ritual-promo{grid-template-columns:50px 1fr;gap:14px}.ritual-promo-icon{width:50px;height:50px}.ritual-promo-link{grid-column:2;justify-self:start}}
 @media(max-width:520px){.ritual-promo{grid-template-columns:1fr;padding:24px 20px;margin-top:25px;gap:13px}.ritual-promo-icon{width:52px;height:52px}.ritual-promo-link{grid-column:1;justify-self:stretch}.ritual-promo h3{font-size:25px}.ritual-promo p{font-size:14px}}
+
+/* Contacts, video background and refined icon treatments. */
+.hero-image {animation:none;overflow:hidden;}
+.hero-background-video {width:100%;height:100%;object-fit:cover;object-position:center;}
+.hero-wash {background:linear-gradient(95deg,rgba(2,40,28,.94),rgba(3,45,31,.78) 38%,rgba(2,35,25,.28) 75%);}
+.contact-number {display:block;width:fit-content;}
+.contact-number:hover {color:#f5d78e;}
+.contact-number:focus-visible {outline:2px solid #f5d78e;outline-offset:4px;border-radius:3px;}
+.ui-icon {stroke-width:1.7;}
+.trust-ic {width:44px;height:44px;flex:none;border:1px solid #f5d78e55;border-radius:14px;background:linear-gradient(145deg,#ffffff18,#ffffff06);box-shadow:inset 0 1px 0 #ffffff20;}
+.trust-ic .ui-icon {width:23px;height:23px;}
+.step-icon,.contact-card-icon {border:1px solid #c99c4038;box-shadow:0 5px 16px #032f240c,inset 0 1px 0 #ffffff30;}
+.step-icon {background:linear-gradient(145deg,#f5f9f0,#e6efe4);color:#956b25;}
+.step-icon .ui-icon {width:28px;height:28px;}
+.contact-card-icon {background:linear-gradient(145deg,#ffffff21,#ffffff09);border-radius:15px;}
+.contact-card-icon .ui-icon {width:24px;height:24px;}
+@media(max-width:800px){.hero-wash{background:linear-gradient(100deg,#052f21ed,#033322bb 65%,#012d1b65);}.trust-ic{width:36px;height:36px;border-radius:11px;}.trust-ic .ui-icon{width:20px;height:20px;}}
+
+.brand {flex-shrink:0;}
+.brand-logo {width:112px;height:90px;object-fit:contain;}
+.site-header {height:104px;}
+.footer-logo {width:190px;height:auto;border-radius:12px;}
+@media(max-width:1050px){.site-header{height:94px;}.brand-logo{width:102px;height:82px;}}
+@media(max-width:520px){.site-header{height:88px;}.brand-logo{width:94px;height:76px;}}

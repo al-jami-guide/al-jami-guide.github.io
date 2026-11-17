@@ -120,9 +120,29 @@
   }));
   lightbox.querySelector('.lightbox-close').addEventListener('click',()=>lightbox.close());
   lightbox.addEventListener('click',e=>{if(e.target===lightbox)lightbox.close()});
-  const videoDialog=document.getElementById('video-dialog');
-  document.getElementById('hero-video-btn').addEventListener('click',()=>{ if(videoDialog.showModal)videoDialog.showModal(); else document.getElementById('galerie').scrollIntoView({behavior:'smooth'}); });
-  videoDialog.querySelector('.lightbox-close').addEventListener('click',()=>videoDialog.close());
-  videoDialog.addEventListener('close',()=>videoDialog.querySelector('video').pause());
-  videoDialog.addEventListener('click',e=>{if(e.target===videoDialog)videoDialog.close()});
+  const backgroundVideo = document.getElementById('hero-background-video');
+  const videoToggle = document.getElementById('hero-video-toggle');
+  const videoLabels = {
+    fr: ['Mettre en pause', 'Reprendre la vidéo'],
+    en: ['Pause video', 'Play video'],
+    de: ['Video pausieren', 'Video abspielen']
+  };
+  function updateVideoControl() {
+    const paused = backgroundVideo.paused;
+    const label = (videoLabels[document.documentElement.lang] || videoLabels.fr)[paused ? 1 : 0];
+    videoToggle.querySelector('span').textContent = label;
+    videoToggle.setAttribute('aria-label', label);
+    videoToggle.querySelector('use').setAttribute('href', paused ? '#icon-play' : '#icon-pause');
+  }
+  backgroundVideo.muted = true;
+  backgroundVideo.addEventListener('play', updateVideoControl);
+  backgroundVideo.addEventListener('pause', updateVideoControl);
+  videoToggle.addEventListener('click', () => {
+    if (backgroundVideo.paused) backgroundVideo.play().catch(updateVideoControl);
+    else backgroundVideo.pause();
+  });
+  new MutationObserver(updateVideoControl).observe(document.documentElement, {attributes:true, attributeFilter:['lang']});
+  backgroundVideo.play().catch(updateVideoControl);
+  updateVideoControl();
+
 })();
