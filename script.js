@@ -33,6 +33,10 @@
       contactKicker:'SPRECHEN WIR ÜBER IHRE PLÄNE',contactTitle:'Ihre nächste Reise<br><em>beginnt hier.</em>',contactLead:'Fragen zu einem Reisepaket? Unser Team ist telefonisch, per WhatsApp oder E-Mail erreichbar.',contactEurope:'Kontakt Europa',contactGuinea:'Kontakt Guinea',writeWhatsapp:'Nachricht schreiben',formKicker:'REISEANFRAGE',formTitle:'Erzählen Sie uns von <em>Ihrer Reise.</em>',formLead:'Teilen Sie Ihre Wünsche mit: Wir bereiten eine WhatsApp-Nachricht vor. Die Anfrage ist noch keine verbindliche Buchung.',yourName:'Ihr Name',yourPhone:'Ihre Telefonnummer',yourDepart:'Abflugregion',otherDepart:'Andere / angeben',yourTrip:'Gewünschte Reise',culturalTravel:'Kultur- / Religionsreise',yourRoom:'Zimmerwunsch',room4:'4 Personen im Zimmer',room3:'3 Personen im Zimmer',otherRoom:'Noch offen',yourCount:'Anzahl Reisende',yourMessage:'Ihre Nachricht (optional)',sendWhatsapp:'WhatsApp-Anfrage vorbereiten',formDisclaimer:'Diese Website speichert keine Eingaben. WhatsApp wird geöffnet, damit Sie die Nachricht prüfen und senden können.',footerText:'Religiöse und kulturelle Reisen. Erlebnisse voller Glauben und Entdeckungen in Mekka und Medina.',footerNav:'Entdecken',footerUseful:'Nützliche Informationen',footerContact:'Kontakt',footerQuestions:'Noch Fragen? Kontakt aufnehmen',footerLegal:'Informationswebsite. Bedingungen, Verfügbarkeit, Impressum und Datenschutzerklärung sind vor Veröffentlichung zu vervollständigen.'
     }
   };
+  Object.assign(translations.en, {"vipKicker": "YOUR UMRAH, YOUR WAY", "vipTitle": "Private, personalised VIP Umrah", "vipBody": "Experience Umrah on your own terms. Al Jami Guide also offers a private VIP journey, tailored to your plans, with the Umrah visa included. Contact us to discuss your dates, number of travellers and preferences, and receive a personalised offer.", "vipPrivate": "Private journey", "vipPersonal": "Personalised offer", "vipVisa": "Umrah visa included", "vipCta": "Request my VIP offer on WhatsApp", "vipNote": "An offer tailored to your plans, available on request.", "vipTrip": "Private VIP Umrah"});
+  Object.assign(translations.de, {"vipKicker": "IHRE UMRA, NACH IHREN WÜNSCHEN", "vipTitle": "Private, individuell gestaltete VIP-Umra", "vipBody": "Erleben Sie die Umra ganz nach Ihren Wünschen. Al Jami Guide bietet auch eine private VIP-Reise, die individuell auf Ihre Pläne abgestimmt ist – inklusive Umra-Visum. Teilen Sie uns Ihre Reisedaten, die Anzahl der Reisenden und Ihre Wünsche mit, um ein persönliches Angebot zu erhalten.", "vipPrivate": "Private Reise", "vipPersonal": "Individuelles Angebot", "vipVisa": "Umra-Visum inklusive", "vipCta": "VIP-Angebot über WhatsApp anfragen", "vipNote": "Ihr persönliches Angebot erhalten Sie auf Anfrage.", "vipTrip": "Private VIP-Umra"});
+  translations.en.servicesLead = 'Explore the Ramadan 2027 packages and our private, personalised VIP Umrah, with the Umrah visa included.';
+  translations.de.servicesLead = 'Entdecken Sie unsere Ramadan-Angebote 2027 und unsere private, individuell gestaltete VIP-Umra inklusive Umra-Visum.';
   const translatable = [...document.querySelectorAll('[data-t], [data-t-html]')];
   translatable.forEach(el => { el.dataset.original = (el.hasAttribute('data-t-html') ? el.innerHTML : el.textContent); });
   let lang = 'fr';
@@ -140,7 +144,7 @@
       intro: 'Bonjour Al Jami Guide, je souhaite participer à votre voyage. Merci de me contacter pour organiser mon inscription.',
       labels: ['Nom', 'Téléphone', 'Voyage', 'Départ', 'Chambre', 'Nombre de voyageurs', 'Tarif affiché', 'Message'],
       regions: {europe:'Europe (France / Belgique / Allemagne)',conakry:'Conakry (Guinée)',other:'Autre départ'},
-      trips: {ramadan:'Omra Ramadan 2027 (21 février au 11 mars)',omra:'Omra – autre période',hajj:'Hajj',culture:'Voyage culturel / religieux'},
+      trips: {vip:'Omra VIP privée et personnalisée (visa Omra inclus)',ramadan:'Omra Ramadan 2027 (21 février au 11 mars)',omra:'Omra – autre période',hajj:'Hajj',culture:'Voyage culturel / religieux'},
       rooms: {4:'4 personnes par chambre',3:'3 personnes par chambre',other:'À discuter'},
       price: 'par personne (à confirmer)', end: 'Merci de me confirmer les disponibilités et les conditions.'
     },
@@ -149,7 +153,7 @@
       intro: 'Guten Tag Al Jami Guide, ich möchte an Ihrer Reise teilnehmen. Bitte kontaktieren Sie mich, um meine Anmeldung zu besprechen.',
       labels: ['Name', 'Telefon', 'Reise', 'Abreise', 'Zimmer', 'Anzahl der Reisenden', 'Angezeigter Preis', 'Nachricht'],
       regions: {europe:'Europa (Frankreich / Belgien / Deutschland)',conakry:'Conakry (Guinea)',other:'Anderer Abreiseort'},
-      trips: {ramadan:'Ramadan-Umra 2027 (21. Februar bis 11. März)',omra:'Umra – anderer Zeitraum',hajj:'Hadsch',culture:'Kultur- / Religionsreise'},
+      trips: {vip:'Private VIP-Umra (Umra-Visum inklusive)',ramadan:'Ramadan-Umra 2027 (21. Februar bis 11. März)',omra:'Umra – anderer Zeitraum',hajj:'Hadsch',culture:'Kultur- / Religionsreise'},
       rooms: {4:'4 Personen pro Zimmer',3:'3 Personen pro Zimmer',other:'Noch zu besprechen'},
       price: 'pro Person (noch zu bestätigen)', end: 'Bitte bestätigen Sie die Verfügbarkeit und die Bedingungen.'
     },
@@ -158,15 +162,16 @@
       intro: 'Hello Al Jami Guide, I would like to join your trip. Please contact me to discuss my booking.',
       labels: ['Name', 'Phone', 'Trip', 'Departure', 'Room', 'Number of travellers', 'Displayed price', 'Message'],
       regions: {europe:'Europe (France / Belgium / Germany)',conakry:'Conakry (Guinea)',other:'Other departure'},
-      trips: {ramadan:'Ramadan Umrah 2027 (21 February to 11 March)',omra:'Umrah – other dates',hajj:'Hajj',culture:'Cultural / religious trip'},
+      trips: {vip:'Private VIP Umrah (Umrah visa included)',ramadan:'Ramadan Umrah 2027 (21 February to 11 March)',omra:'Umrah – other dates',hajj:'Hajj',culture:'Cultural / religious trip'},
       rooms: {4:'4 people per room',3:'3 people per room',other:'To be discussed'},
       price: 'per person (to be confirmed)', end: 'Please confirm availability and booking conditions.'
     }
   };
   const getWhatsappCopy = () => whatsappCopy[document.documentElement.lang] || whatsappCopy.fr;
   function updateWhatsappLinks() {
-    const message = getWhatsappCopy().hello;
+    const vipMessages = {"fr": "Bonjour Al Jami Guide, je suis intéressé(e) par une Omra VIP privée et personnalisée, avec le visa Omra inclus. Pourriez-vous me proposer une offre adaptée à mes dates, au nombre de voyageurs et à mes préférences ? Merci.", "de": "Guten Tag Al Jami Guide, ich interessiere mich für eine private, individuell gestaltete VIP-Umra inklusive Umra-Visum. Könnten Sie mir ein Angebot passend zu meinen Reisedaten, der Anzahl der Reisenden und meinen Wünschen erstellen? Vielen Dank.", "en": "Hello Al Jami Guide, I am interested in a private, personalised VIP Umrah with the Umrah visa included. Could you prepare an offer based on my travel dates, number of travellers and preferences? Thank you."};
     document.querySelectorAll('a[href*="wa.me/"]').forEach(link => {
+      const message = link.dataset.whatsappOffer === 'vip' ? (vipMessages[document.documentElement.lang] || vipMessages.fr) : getWhatsappCopy().hello;
       link.href = `https://wa.me/${whatsappContact}?text=${encodeURIComponent(message)}`;
     });
   }
