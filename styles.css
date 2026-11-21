@@ -725,10 +725,10 @@ h2 {font-family:var(--font-display); font-size:clamp(32px,3.04vw,45px); font-wei
 
 /* Separate brand identities: Al Jami leads; NK Voyage endorses. */
 .brand-primary{display:flex;flex-direction:column;align-items:center;gap:0;}
-.brand-primary .brand-logo{width:158px;height:88px;object-fit:contain;}
+.brand-primary .brand-logo{width:136px;height:76px;object-fit:contain;}
 .brand-endorsement{display:block;font:500 10px/1.35 var(--font-body);color:#657266;white-space:nowrap;letter-spacing:.1px;margin-top:-1px;}
 .partner-brand{display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-right:3px;}
-.partner-brand img{width:54px;height:54px;object-fit:contain;}
+.partner-brand img{width:74px;height:74px;object-fit:contain;}
 .site-header{height:118px;border-bottom:1px solid #c99c4060;}
 .footer-endorsement{color:#e0c992!important;}
 .about-hero{background:linear-gradient(120deg,#063e2d,#07543b);color:#fff;padding:70px 0 65px;text-align:center;}
@@ -748,7 +748,7 @@ h2 {font-family:var(--font-display); font-size:clamp(32px,3.04vw,45px); font-wei
 .about-contact>.container{display:flex;align-items:center;justify-content:space-between;gap:35px;}
 .about-contact h2{font-size:32px;margin:12px 0;}
 .about-contact p{font-size:16px;color:#536b5b;max-width:680px;margin:0;}
-@media(max-width:1400px){.main-nav{gap:0}.nav-link{padding:10px 6px;font-size:11px;}.nav-book{padding:11px 12px;font-size:11px;}.nav-in{gap:13px;}.brand-primary .brand-logo{width:136px;height:84px;}.brand-endorsement{font-size:9px;}}
-@media(max-width:1200px){.hamburger{display:flex;order:5}.main-nav{display:none;position:absolute;top:100%;left:0;right:0;background:#fff;box-shadow:0 18px 28px #0a321d1f;padding:13px 4%;flex-direction:column;align-items:stretch;gap:0;}.main-nav.is-open{display:flex}.nav-link{font-size:14px;padding:13px 16px;}.nav-actions{margin-left:auto;}.brand-primary .brand-logo{width:158px;height:88px;}.brand-endorsement{font-size:10px;}}
-@media(max-width:800px){.site-header{height:110px;}.brand-primary .brand-logo{width:141px;height:82px;}.brand-endorsement{font-size:9px;}.partner-brand img{width:48px;height:48px;}.nav-actions{gap:9px;}.about-hero{padding:48px 0;}.about-hero h1{font-size:34px;}.about-hero p{font-size:16px;}.about-layout{grid-template-columns:1fr;gap:32px;}.about-copy p{font-size:16px;}.about-contact>.container{flex-direction:column;align-items:flex-start;}.about-contact h2{font-size:29px;}}
-@media(max-width:420px){.brand-primary .brand-logo{width:125px;height:76px;}.brand-endorsement{font-size:8px;}.partner-brand img{width:40px;height:40px;}.nav-actions{gap:7px;}.nav-in{gap:6px;}.site-header{height:102px;}.lang-control select{max-width:54px;}.about-hero h1{font-size:30px;}}
+@media(max-width:1400px){.main-nav{gap:0}.nav-link{padding:10px 6px;font-size:11px;}.nav-book{padding:11px 12px;font-size:11px;}.nav-in{gap:13px;}.brand-primary .brand-logo{width:120px;height:74px;}.brand-endorsement{font-size:9px;}}
+@media(max-width:1200px){.hamburger{display:flex;order:5}.main-nav{display:none;position:absolute;top:100%;left:0;right:0;background:#fff;box-shadow:0 18px 28px #0a321d1f;padding:13px 4%;flex-direction:column;align-items:stretch;gap:0;}.main-nav.is-open{display:flex}.nav-link{font-size:14px;padding:13px 16px;}.nav-actions{margin-left:auto;}.brand-primary .brand-logo{width:136px;height:76px;}.brand-endorsement{font-size:10px;}}
+@media(max-width:800px){.site-header{height:110px;}.brand-primary .brand-logo{width:122px;height:72px;}.brand-endorsement{font-size:9px;}.partner-brand img{width:66px;height:66px;}.nav-actions{gap:9px;}.about-hero{padding:48px 0;}.about-hero h1{font-size:34px;}.about-hero p{font-size:16px;}.about-layout{grid-template-columns:1fr;gap:32px;}.about-copy p{font-size:16px;}.about-contact>.container{flex-direction:column;align-items:flex-start;}.about-contact h2{font-size:29px;}}
+@media(max-width:420px){.brand-primary .brand-logo{width:110px;height:66px;}.brand-endorsement{font-size:8px;}.partner-brand img{width:58px;height:58px;}.nav-actions{gap:7px;}.nav-in{gap:6px;}.site-header{height:102px;}.lang-control select{max-width:54px;}.about-hero h1{font-size:30px;}}
