@@ -1,4 +1,4 @@
-/* ALJAMÏGUIDE — site vitrine autonome. Aucun stockage, aucun suivi, aucun paiement intégré. */
+/* ALJAMÏGUIDE — formulaire sans stockage des coordonnées ; pixel publicitaire soumis au consentement. */
 (() => {
   'use strict';
   const translations = {
