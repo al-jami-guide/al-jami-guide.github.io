@@ -99,6 +99,7 @@
   }));
   document.getElementById('reservation-form').addEventListener('submit', e => {
     e.preventDefault();
+    if (!e.currentTarget.reportValidity()) return;
     const name=document.getElementById('full-name').value.trim();
     const phone=document.getElementById('phone').value.trim();
     if (!name || !phone) { document.getElementById(!name?'full-name':'phone').focus(); return; }
@@ -178,4 +179,5 @@
   new MutationObserver(updateWhatsappLinks).observe(document.documentElement, {attributes:true, attributeFilter:['lang']});
   updateWhatsappLinks();
 
+  document.querySelector('#reservation-form button[type="submit"]').disabled = false;
 })();
