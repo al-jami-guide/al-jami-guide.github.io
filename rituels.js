@@ -28,8 +28,8 @@ selectActive();
   const whatsappContact = '224612650563';
   const whatsappCopy = {
     fr: {
-      hello: 'Bonjour Al Jami Guide, je souhaite participer à un voyage avec vous. Pourriez-vous me contacter pour me renseigner sur les offres, les disponibilités et les modalités d’inscription ? Merci.',
-      intro: 'Bonjour Al Jami Guide, je souhaite participer à votre voyage. Merci de me contacter pour organiser mon inscription.',
+      hello: 'Bonjour ALJAMÏGUIDE, je souhaite participer à un voyage avec vous. Pourriez-vous me contacter pour me renseigner sur les offres, les disponibilités et les modalités d’inscription ? Merci.',
+      intro: 'Bonjour ALJAMÏGUIDE, je souhaite participer à votre voyage. Merci de me contacter pour organiser mon inscription.',
       labels: ['Nom', 'Téléphone', 'Voyage', 'Départ', 'Chambre', 'Nombre de voyageurs', 'Tarif affiché', 'Message'],
       regions: {europe:'Europe (France / Belgique / Allemagne)',conakry:'Conakry (Guinée)',other:'Autre départ'},
       trips: {ramadan:'Omra Ramadan 2027 (21 février au 11 mars)',omra:'Omra – autre période',hajj:'Hajj',culture:'Voyage culturel / religieux'},
@@ -37,8 +37,8 @@ selectActive();
       price: 'par personne (à confirmer)', end: 'Merci de me confirmer les disponibilités et les conditions.'
     },
     de: {
-      hello: 'Guten Tag Al Jami Guide, ich möchte an einer Ihrer Reisen teilnehmen. Bitte kontaktieren Sie mich mit Informationen zu Ihren Angeboten, verfügbaren Plätzen und der Anmeldung. Vielen Dank.',
-      intro: 'Guten Tag Al Jami Guide, ich möchte an Ihrer Reise teilnehmen. Bitte kontaktieren Sie mich, um meine Anmeldung zu besprechen.',
+      hello: 'Guten Tag ALJAMÏGUIDE, ich möchte an einer Ihrer Reisen teilnehmen. Bitte kontaktieren Sie mich mit Informationen zu Ihren Angeboten, verfügbaren Plätzen und der Anmeldung. Vielen Dank.',
+      intro: 'Guten Tag ALJAMÏGUIDE, ich möchte an Ihrer Reise teilnehmen. Bitte kontaktieren Sie mich, um meine Anmeldung zu besprechen.',
       labels: ['Name', 'Telefon', 'Reise', 'Abreise', 'Zimmer', 'Anzahl der Reisenden', 'Angezeigter Preis', 'Nachricht'],
       regions: {europe:'Europa (Frankreich / Belgien / Deutschland)',conakry:'Conakry (Guinea)',other:'Anderer Abreiseort'},
       trips: {ramadan:'Ramadan-Umra 2027 (21. Februar bis 11. März)',omra:'Umra – anderer Zeitraum',hajj:'Hadsch',culture:'Kultur- / Religionsreise'},
@@ -46,8 +46,8 @@ selectActive();
       price: 'pro Person (noch zu bestätigen)', end: 'Bitte bestätigen Sie die Verfügbarkeit und die Bedingungen.'
     },
     en: {
-      hello: 'Hello Al Jami Guide, I would like to join one of your trips. Please contact me with information about your packages, availability and how to book. Thank you.',
-      intro: 'Hello Al Jami Guide, I would like to join your trip. Please contact me to discuss my booking.',
+      hello: 'Hello ALJAMÏGUIDE, I would like to join one of your trips. Please contact me with information about your packages, availability and how to book. Thank you.',
+      intro: 'Hello ALJAMÏGUIDE, I would like to join your trip. Please contact me to discuss my booking.',
       labels: ['Name', 'Phone', 'Trip', 'Departure', 'Room', 'Number of travellers', 'Displayed price', 'Message'],
       regions: {europe:'Europe (France / Belgium / Germany)',conakry:'Conakry (Guinea)',other:'Other departure'},
       trips: {ramadan:'Ramadan Umrah 2027 (21 February to 11 March)',omra:'Umrah – other dates',hajj:'Hajj',culture:'Cultural / religious trip'},
