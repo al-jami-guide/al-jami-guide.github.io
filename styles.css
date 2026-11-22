@@ -756,7 +756,7 @@ h2 {font-family:var(--font-display); font-size:clamp(32px,3.04vw,45px); font-wei
 /* Both logos grouped together: NK Voyage first, ALJAMÏGUIDE smaller. */
 .header-brands{display:flex;align-items:center;gap:12px;flex-shrink:0;}
 .header-brands .partner-brand{margin:0;}
-.header-brands .brand-primary .brand-logo{width:88px;height:68px;}
+.header-brands .brand-primary .brand-logo{width:102px;height:80px;}
 .header-brands .brand-endorsement{font-size:8px;line-height:1.4;white-space:normal;text-align:center;max-width:100px;margin-top:0;}
-@media(max-width:800px){.header-brands{gap:9px;}.header-brands .brand-primary .brand-logo{width:76px;height:60px;}.header-brands .brand-endorsement{max-width:88px;font-size:8px;}}
-@media(max-width:420px){.header-brands{gap:7px;}.header-brands .brand-primary .brand-logo{width:66px;height:52px;}.header-brands .brand-endorsement{max-width:76px;font-size:7px;}}
+@media(max-width:800px){.header-brands{gap:9px;}.header-brands .brand-primary .brand-logo{width:88px;height:70px;}.header-brands .brand-endorsement{max-width:88px;font-size:8px;}}
+@media(max-width:420px){.header-brands{gap:7px;}.header-brands .brand-primary .brand-logo{width:76px;height:60px;}.header-brands .brand-endorsement{max-width:76px;font-size:7px;}}
